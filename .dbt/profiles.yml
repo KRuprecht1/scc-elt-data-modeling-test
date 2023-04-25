@@ -11,5 +11,5 @@ scc-bigquery-db:
       project: bigquery-public-data
       dataset: sdoh_cdc_wonder_natality
       threads: 4
-      keyfile: /Users/kevin.ruprecht/Documents/code/scc-elt-data-modeling/temp-vxl8cbhr-wsky-4b2770cdf6e8.json
+      keyfile: /secrets/dbt-service-keyfile
       priority: batch
