@@ -5,4 +5,4 @@ SELECT
   ,Mothers_Single_Race as mom_race
   ,Births as births
   ,Ave_Age_of_Mother as avg_age_mother
-FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality_by_mother_race`
+FROM `temp-vxl8cbhr-wsky.births_data_summary.county_natality_by_mother_race`
