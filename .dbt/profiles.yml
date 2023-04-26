@@ -9,7 +9,7 @@ scc-bigquery-db:
       type: bigquery
       method: service-account
       project: temp-vxl8cbhr-wsky
-      dataset: births_data_summary
+      dataset: dbt_test_dataset
       threads: 4
       keyfile: /home/kevin_ruprecht_wellsky_com/temp-vxl8cbhr-wsky-4b2770cdf6e8.json
       priority: batch
