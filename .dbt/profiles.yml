@@ -8,7 +8,7 @@ scc-bigquery-db:
     dev:
       type: bigquery
       method: service-account
-      project: bigquery-public-data
+      project: temp-vxl8cbhr-wsky
       dataset: sdoh_cdc_wonder_natality
       threads: 4
       keyfile: /home/kevin_ruprecht_wellsky_com/temp-vxl8cbhr-wsky-4b2770cdf6e8.json
