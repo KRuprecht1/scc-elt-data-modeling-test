@@ -18,7 +18,7 @@ def trigger_dbt_flow() -> str:
     # )
 
     result = DbtCoreOperation(
-        commands=["dbt debug"],
+        commands=["dbt debug", "dbt run"],
         project_dir="../dbt/test_project",
         # dbt_cli_profile=dbt_cli_profile,
         # overwrite_profiles=True,
