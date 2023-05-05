@@ -1,2 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/temp-vxl8cbhr-wsky/github.com/kruprecht1/scc-elt-data-modeling-test:$COMMIT_SHA', '.']
 options:
-  logging: NONE
+  logging: CLOUD_LOGGING_ONLY
