@@ -1,0 +1,4 @@
+prefect==2.10.6
+prefect-airbyte==0.2.0
+prefect-dbt[bigquery]==0.3.1
+prefect-gcp==0.4.1
